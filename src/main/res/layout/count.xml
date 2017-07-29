@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#f7f7f7">
+    <RelativeLayout
+    	android:layout_width="fill_parent"
+        android:layout_height="45dp" 
+        android:background="#e8e011">
+
+        <Button
+            android:id="@+id/bt_back_count"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:text="个人"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+	<RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/raw" >
+
+            <TextView
+                android:id="@+id/change_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:text="注销当前账号"
+                android:textColor="#393854"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/id_change_count"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_alignRight="@+id/bt_change_count"
+                android:layout_marginRight="28dp"
+                android:src="@drawable/openlock" />
+
+            <Button
+                android:id="@+id/bt_change_count"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="#00000000" />
+
+        </RelativeLayout>
+</LinearLayout>

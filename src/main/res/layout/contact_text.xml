@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="45dp"
+		android:orientation="horizontal" >
+
+		<TextView
+			android:id="@+id/contacts_name"
+			android:layout_width="match_parent"
+			android:layout_height="45dp"
+			android:layout_marginLeft="10dp"
+			android:gravity="center"
+			android:layout_weight="0.8"
+			android:text="@string/name"
+			android:textColor="#393854"
+			android:textSize="20sp" />
+
+		<TextView
+			android:id="@+id/contacts_num"
+			android:layout_width="match_parent"
+			android:layout_height="45dp"
+			android:layout_weight="0.2"
+			android:gravity="center"
+			android:paddingRight="45dp"
+			android:text="联系方式"
+			android:textColor="#393854"
+			android:textSize="20sp" >
+		</TextView>
+	</LinearLayout>

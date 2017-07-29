@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Edward's android projects.iml" filepath="$PROJECT_DIR$/../Edward's android projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneKey2Alarm.iml" filepath="$PROJECT_DIR$/oneKey2Alarm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sMSSDK/sMSSDK.iml" filepath="$PROJECT_DIR$/../sMSSDK/sMSSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../shortMessageSDKGUI/shortMessageSDKGUI.iml" filepath="$PROJECT_DIR$/../shortMessageSDKGUI/shortMessageSDKGUI.iml" />
+    </modules>
+  </component>
+</project>

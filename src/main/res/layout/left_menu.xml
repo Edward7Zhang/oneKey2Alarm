@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="#f7f7f7" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+             android:layout_weight="1"
+            android:background="@drawable/raw" >
+
+            <Button
+                android:id="@+id/bt_110"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="#00000000" />
+
+            <TextView
+                android:id="@+id/police"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/id_110"
+                android:layout_centerHorizontal="true"
+                android:text="警察"
+                android:textColor="#393854"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/id_110"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/police" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+             android:layout_weight="1"
+            android:background="@drawable/raw" >
+
+            <Button
+                android:id="@+id/bt_120"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="#00000000" />
+
+            <TextView
+                android:id="@+id/dector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/id_120"
+                android:layout_centerHorizontal="true"
+                android:text="医生"
+                android:textColor="#393854"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/id_120"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/doctor" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    
+    
+	<LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp" 
+        >
+        
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="180dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_weight="1"
+	        android:layout_marginTop="160dp"
+	        android:background="@drawable/raw" >
+	
+	        <TextView
+	            android:id="@+id/fire"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@+id/id_119"
+	            android:layout_centerHorizontal="true"
+	            android:text="火警"
+	            android:textColor="#393854"
+	            android:textSize="18sp" />
+	
+	        <ImageView
+	            android:id="@+id/id_119"
+	            android:layout_width="40dp"
+	            android:layout_height="40dp"
+	            android:layout_centerHorizontal="true"
+	            android:layout_centerVertical="true"
+	            android:src="@drawable/fire" />
+
+	        <Button
+	            android:id="@+id/bt_119"
+	            android:layout_width="160dp"
+	            android:layout_height="160dp"
+	            android:layout_alignParentRight="true"
+	            android:layout_alignParentTop="true"
+	            android:background="#00000000" />
+	
+	    </RelativeLayout>
+	
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="180dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginTop="160dp"
+	         android:layout_weight="1"
+	        android:layout_below="@+id/linearLayout1"
+	        android:background="@drawable/raw" >
+	
+	        <Button
+	            android:id="@+id/bt_122"
+	            android:layout_width="160dp"
+	            android:layout_height="160dp"
+	            android:layout_alignParentBottom="true"
+	            android:layout_alignParentLeft="true"
+	            android:layout_alignParentTop="true"
+	            android:background="#00000000" />
+	
+	        <TextView
+	            android:id="@+id/traffic"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@+id/id_122"
+	            android:layout_centerHorizontal="true"
+	            android:text="交警"
+	            android:textColor="#393854"
+	            android:textSize="18sp" />
+	
+	        <ImageView
+	            android:id="@+id/id_122"
+	            android:layout_width="40dp"
+	            android:layout_height="40dp"
+	            android:layout_centerHorizontal="true"
+	            android:layout_centerVertical="true"
+	            android:src="@drawable/traffic" />
+	    </RelativeLayout>
+	</LinearLayout>
+	
+	<LinearLayout
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp" 
+        android:layout_marginTop="160dp">
+        
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="180dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_weight="1"
+	        android:layout_marginTop="160dp"
+	        android:background="@drawable/raw" >
+	
+	        <TextView
+	            android:id="@+id/schoolpolice"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@+id/id_schoolpolice"
+	            android:layout_centerHorizontal="true"
+	            android:text="校园110"
+	            android:textColor="#393854"
+	            android:textSize="18sp" />
+	
+	        <ImageView
+	            android:id="@+id/id_schoolpolice"
+	            android:layout_width="40dp"
+	            android:layout_height="40dp"
+	            android:layout_centerHorizontal="true"
+	            android:layout_centerVertical="true"
+	            android:src="@drawable/schoolpolice" />
+
+	        <Button
+	            android:id="@+id/bt_schoolpolice"
+	            android:layout_width="160dp"
+	            android:layout_height="160dp"
+	            android:layout_alignParentRight="true"
+	            android:layout_alignParentTop="true"
+	            android:background="#00000000" />
+	
+	    </RelativeLayout>
+	
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="180dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginTop="160dp"
+	         android:layout_weight="1"
+	        android:layout_below="@+id/linearLayout2"
+	        android:background="@drawable/raw" >
+	
+	         <Button
+	            android:id="@+id/bt_listen"
+	            android:layout_width="160dp"
+	            android:layout_height="160dp"
+	            android:layout_alignParentBottom="true"
+	            android:layout_alignParentLeft="true"
+	            android:layout_alignParentTop="true"
+	            android:background="#00000000" />
+	
+	        <TextView
+	            android:id="@+id/listen"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@+id/id_listen"
+	            android:layout_centerHorizontal="true"
+	            android:text=""
+	            android:textColor="#393854"
+	            android:textSize="18sp" />
+	
+	        <ImageView
+	            android:id="@+id/id_listen"
+	            android:layout_width="40dp"
+	            android:layout_height="40dp"
+	            android:layout_centerHorizontal="true"
+	            android:layout_centerVertical="true"
+	         	/>
+	        
+	       
+	    </RelativeLayout>
+	</LinearLayout>
+	
+	
+</RelativeLayout>

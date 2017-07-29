@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#f7f7f7">
+    <RelativeLayout
+    	android:layout_width="fill_parent"
+        android:layout_height="45dp" 
+        android:background="#1874CD">
+
+        <Button
+            android:id="@+id/bt_back_me"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:text="我"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:orientation="vertical" 
+        android:background="@drawable/raw">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/raw"
+            android:layout_marginTop="20dp" >
+
+            <ImageView
+                android:id="@+id/id_aid"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignRight="@+id/bt_aid"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/aid"/>
+
+            <TextView
+                android:id="@+id/aid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:text="医疗急救卡"
+                android:textColor="#393854"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bt_aid"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="#00000000" />
+
+        </RelativeLayout> 
+	</LinearLayout>
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       	android:layout_marginTop="20dp"
+        android:background="@drawable/raw"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/raw" >
+
+            <TextView
+                android:id="@+id/count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:text="个人"
+                android:textColor="#393854"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/id_count"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_alignRight="@+id/bt_count"
+                android:layout_marginRight="28dp"
+                android:src="@drawable/person" />
+
+            <Button
+                android:id="@+id/bt_count"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="#00000000" />
+
+        </RelativeLayout>
+	</LinearLayout>
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+       	android:layout_marginTop="20dp"
+        android:background="@drawable/raw"
+        android:orientation="vertical" >
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/raw" >
+
+           <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:text="住址"
+                android:textColor="#393854"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/id_address"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_alignRight="@+id/bt_address"
+                android:layout_marginRight="28dp"
+                android:src="@drawable/address" />
+
+            <Button
+                android:id="@+id/bt_address"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="#00000000" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

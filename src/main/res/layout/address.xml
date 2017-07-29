@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#f7f7f7">
+    <RelativeLayout
+    	android:layout_width="fill_parent"
+        android:layout_height="45dp" 
+        android:background="#112079">
+
+        <Button
+            android:id="@+id/bt_back_adds"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:text="住址"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+	<Button
+            android:id="@+id/bt_save_adds"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/confirm" />
+    </RelativeLayout>
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+        android:layout_height="45dp" 
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/raw">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="地址" 
+		    android:textColor="#393854" 
+		    android:textSize="20sp"/>
+	    
+	    <EditText
+	        android:id="@+id/et_address"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_marginRight="5dp"
+	        android:ems="20" >
+    </EditText>
+	</LinearLayout>
+</LinearLayout>

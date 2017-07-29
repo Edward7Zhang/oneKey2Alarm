@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OneKey2Alarm</string>
+    <string name="name">姓名:</string>
+    <string name="action_settings">Settings</string>
+	<string name="buttonText">一键报警</string>
+	<string name="contacts">添加救援提供者</string>
+	<string name="messages">设置求救内容</string>
+	<string name="about">关于</string>
+	<string name="setting">设置</string>
+	<string name="menu">菜单</string>
+	<string name="textview">请输入您需要传达的求救信息：</string>
+	<string name="menu_service">服务</string>
+	<string name="map">地图</string>
+	<string name="me">我</string>
+</resources>
